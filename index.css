@@ -111,6 +111,20 @@ footer>span:nth-child(2) {
   margin: 5% 0;
 }
 
+::-webkit-scrollbar {
+  width: .5em;
+  height: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
 @media screen and (min-width: 700px) {
   body {
     font-size: 30px;
@@ -118,11 +132,9 @@ footer>span:nth-child(2) {
   footer {
     padding: 2em;
   }
-
   #imgBox {
     flex-direction: row;
   }
-
   img {
     width: 30%;
   }
